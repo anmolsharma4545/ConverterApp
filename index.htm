@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter App</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/197283b8d5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="./App.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2 class="logo">All-In-One Converter</h2>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="first"><i class="fas fa-ruler-vertical"></i>&nbsp;&nbsp;Length</li>
+                <li class="second"><i class="fas fa-temperature-high"></i>&nbsp;&nbsp;Temperature</li>
+                <li class="third"><i class="fas fa-balance-scale-right"></i>&nbsp;&nbsp;Weight</li>
+                <li class="fourth"><i class="fas fa-tachometer-alt"></i>&nbsp;&nbsp;Speed</li>
+                <li class="fifth"><i class="fas fa-bolt"></i>&nbsp;&nbsp;Power</li>
+            </ul>
+        </nav>
+        <div class="length">
+            <div class="split">
+            <input type="text" name="" id="lengthvalue">
+            <select  id="lengthone">
+                
+                <option value="kilometre">(km)</option>
+                <option value="centimetre">Centimetre(cm)</option>
+                <option value="metre">Metre(m)</option>
+                <option value="mile">Mile(mi)</option>
+            </select></div>
+            <div class="split">
+            <div class="Loutput"></div>
+            <select  id="lengthtwo">
+                <option value="kilometre">(km)</option>
+                <option value="centimetre">Centimetre(cm)</option>
+                <option value="metre">Metre(m)</option>
+                <option value="mile">Mile(mi)</option>
+            </select></div>
+            <button id="Lengthbtn">Convert</button>
+        </div>
+        <div class="temperature">
+            <div class="split">
+            <input type="text" name="" id="tempvalue">
+            <select  id="tempone">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select></div>
+            <div class="split">
+            <div class="Toutput"></div>
+            <select  id="temptwo">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select></div>
+            <button id="tempbtn">Convert</button>
+        </div>
+        <div class="weight">
+            <div class="split">
+            <input type="text" name="" id="weightvalue">
+            <select id="weightone">
+                <option value="gram">Gram(gm)</option>
+                <option value="tonne">Tonne(t)</option>
+                <option value="quintal">Quintal(q)</option>
+                <option value="kilogram">Kilogram(Kg)</option>
+            </select></div>
+            <div class="split">
+            <div class="Woutput"></div>
+            <select id="weighttwo">
+                <option value="gram">Gram(gm)</option>
+                <option value="tonne">Tonne(t)</option>
+                <option value="quintal">Quintal(q)</option>
+                <option value="kilogram">Kilogram(Kg)</option>
+            </select></div>
+            <button id="weightbtn">Convert</button>
+        </div>
+        <div class="speed">
+            <div class="split">
+            <input type="text" name="" id="speedvalue">
+            <select id="speedone">
+                <option value="kilometre">(km/h)</option>
+                <option value="mile">(mph)</option>
+            </select></div>
+            <div class="split">
+            <div class="Soutput"></div>
+            <select id="speedtwo">
+                <option value="kilometre">(km/h)</option>
+                <option value="mile">(mph)</option>
+            </select></div>
+            <button id="speedbtn">Convert</button>
+        </div>
+        <div class="power">
+            <div class="split">
+            <input type="text" name="" id="powervalue">
+            <select id="powerone">
+                <option value="watt">Watt(w)</option>
+                <option value="kilowatt">Kilowatt(kw)</option>
+            </select></div>
+            <div class="split">
+            <div class="Poutput"></div>
+            <select id="powertwo">
+                <option value="watt">Watt(w)</option>
+                <option value="kilowatt">Kilowatt(kw)</option>
+            </select></div>
+            <button id="powerbtn">Convert</button>
+        </div>
+    </div>
+</body>
+</html>
